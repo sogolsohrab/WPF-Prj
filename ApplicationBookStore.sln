@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplicationBookStore", "WpfApplicationBookStore\WpfApplicationBookStore.csproj", "{32CA4ADE-396B-4B9D-8A94-1D348B94DD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1F83CA81-5DD4-43BF-B72E-D0EBDE518F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CA4ADE-396B-4B9D-8A94-1D348B94DD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CA4ADE-396B-4B9D-8A94-1D348B94DD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CA4ADE-396B-4B9D-8A94-1D348B94DD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CA4ADE-396B-4B9D-8A94-1D348B94DD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F83CA81-5DD4-43BF-B72E-D0EBDE518F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F83CA81-5DD4-43BF-B72E-D0EBDE518F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F83CA81-5DD4-43BF-B72E-D0EBDE518F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F83CA81-5DD4-43BF-B72E-D0EBDE518F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC609A64-365A-4380-8862-CAD09DD622B3}
+	EndGlobalSection
+EndGlobal

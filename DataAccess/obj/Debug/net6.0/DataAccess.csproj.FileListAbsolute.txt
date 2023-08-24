@@ -1,0 +1,14 @@
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\bin\Debug\net6.0\DemoDBEmployees.csv
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\bin\Debug\net6.0\DemoDBCustomers.csv
+C:\Users\User1\source\repos\ApplicationBookStore\DataAccess\bin\Debug\net6.0\DemoDBProducts.csv
