@@ -20,7 +20,7 @@
 
             <DockPanel Margin="10">
                 <Label Margin="10">Phone Number:</Label>
-                <TextBox Name="tbPhoneNumber" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2" /> // TextChanged="tbPhoneNumber_TextChanged"/>
+                <TextBox Name="tbPhoneNumber" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2" />
             </DockPanel>
 
             <DockPanel Margin="10">
