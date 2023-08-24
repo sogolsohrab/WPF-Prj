@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApplicationBookStore.AddEditEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplicationBookStore"
+        mc:Ignorable="d"
+        Title="AddEditEmployee" FontSize="24" Height="700" Width="800" Background="Lavender">
+    <Grid>
+        <StackPanel Margin="10">
+            <DockPanel Margin="10">
+                <Label Margin="10">First Name:</Label>
+                <TextBox Name="tbFirstName" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Last Name:</Label>
+                <TextBox Name="tbLastName" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Phone Number:</Label>
+                <TextBox Name="tbPhoneNumber" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2" /> // TextChanged="tbPhoneNumber_TextChanged"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Address:</Label>
+                <TextBox Name="tbAddress" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Department:</Label>
+                <ComboBox Name="comboDepartment" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2">
+                    <ComboBoxItem>Production</ComboBoxItem>
+                    <ComboBoxItem>Sales</ComboBoxItem>
+                    <ComboBoxItem>Advertisment</ComboBoxItem>
+                    <ComboBoxItem>Management</ComboBoxItem>
+                </ComboBox>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Base Salary:</Label>
+                <TextBox Name="tbBaseSalary" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"/>
+            </DockPanel>
+
+            <Label Name="lblError" Foreground="Red" FontSize="18" FontWeight="Bold" Margin="2" HorizontalAlignment="Right"/>
+            <DockPanel Margin="10" HorizontalAlignment="Right">
+                <Button Name="btnSave" Click="btnSave_Click" Height="50" Width="120" Margin="10" Background="MediumAquamarine" BorderBrush="Silver" BorderThickness="2">Save</Button>
+                <Button Name="btnCancel" Click="btnCancel_Click" Height="50" Width="120" Background="MediumVioletRed" BorderBrush="Silver" BorderThickness="2">Cancel</Button>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>

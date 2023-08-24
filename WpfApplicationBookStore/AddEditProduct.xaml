@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApplicationBookStore.AddEditProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplicationBookStore"
+        mc:Ignorable="d"
+        Title="AddEditProduct" FontSize="24" Height="600" Width="800" Background="Lavender">
+    <Grid>
+        <StackPanel Margin="10">
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Name: </Label>
+                <TextBox Name="tbName" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"></TextBox>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Author: </Label>
+                <TextBox Name="tbAuthor" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"></TextBox>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Price: </Label>
+                <TextBox Name="tbPrice" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"></TextBox>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Available Count:</Label>
+                <TextBox Name="tbAvailableCount" HorizontalAlignment="Right" Width="500" BorderBrush="Silver" BorderThickness="2"></TextBox>
+            </DockPanel>
+            <Label Name="lblError" Foreground="Red" FontSize="18" FontWeight="Bold" Margin="2" HorizontalAlignment="Right"/>
+            <DockPanel Margin="10" HorizontalAlignment="Right">
+                <Button Name="btnSave" Click="btnSave_Click" Margin="10" Width="120" Height="50" Background="MediumAquamarine" BorderBrush="Silver" BorderThickness="2">Save</Button>
+                <Button Name="btnCancel" Click="btnCancel_Click" Width="120" Height="50" Background="MediumVioletRed" BorderBrush="Silver" BorderThickness="2">Cancel</Button>
+            </DockPanel>
+
+        </StackPanel>
+        
+    </Grid>
+</Window>
